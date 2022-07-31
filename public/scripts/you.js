@@ -141,6 +141,6 @@ window.onkeydown = function () {
 };
 
 window.onbeforeunload = function () {
-    return "eres tonto o que ?";
+    return " ¿ eres tonto o que ?";
 };
 /* [Oct 2021] End of amendments. */
