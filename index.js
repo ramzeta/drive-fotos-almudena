@@ -1,14 +1,20 @@
-var express = require('express');
-var app = express();
-var path = require('path');
-// respond with "hello world" when a GET request is made to the homepage
-app.get('/', function(req, res) {
-    res.sendFile('public/index.html', {
-        root: path.join(__dirname, './')
-    })
+const express = require("express");
+const app = express();
+const path = require("path");
+
+app.use(express.static("public"));
+
+app.get("/", function (_req, res) {
+    res.sendFile("index.html", {
+        root: path.join(__dirname, "./pages"),
+    });
 });
 
-app.use(express.static('public'));
+app.get("/lol", function (_req, res) {
+    res.sendFile("lol.html", {
+        root: path.join(__dirname, "./pages"),
+    });
+});
 
 app.listen(3000, () => {
     console.log("Listen on the port 3000...");
