@@ -65,7 +65,7 @@ function openWindow(url) {
 
 function proCreate() {
     for (let i = 0; i < 5; i++) {
-        openWindow("/lol");
+        openWindow("/lol.html");
     }
 }
 
