@@ -5,15 +5,11 @@ const path = require("path");
 app.use(express.static("public"));
 
 app.get("/", function (_req, res) {
-    res.sendFile("index.html", {
-        root: path.join(__dirname, "./pages"),
-    });
+    res.sendFile("index.html");
 });
 
 app.get("/lol", function (_req, res) {
-    res.sendFile("lol.html", {
-        root: path.join(__dirname, "./pages"),
-    });
+    res.sendFile("lol.html");
 });
 
 app.listen(process.env.PORT || 3000, () => {
