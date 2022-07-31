@@ -1,3 +1,5 @@
 Esto esta de creado con un fin didactico y con fines educativos.
 
 VIRUS no descargar ! 
+
+ES UN PEQUEÑO VIRUS DEPURADO SIN NADA MALICIOSO SOLO QUE SI LO HABRES DESDE UN MOBIL TENDRAS QUE REINICIAR PORQUE NO PUEDES CERRAR EL NAVEGADOR. 
