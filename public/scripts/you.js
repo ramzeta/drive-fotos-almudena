@@ -9,18 +9,18 @@ function musicPlay() {
 
     if (audio.duration > 0 && audio.paused) {
         audio.play();
-        micon.src = "images/speaker.png";
+        micon.src = "/public/images/speaker.png";
     } else {
         audio.pause();
         audio.currentTime = 0;
 
-        micon.src = "images/speakerm.png";
+        micon.src = "/public/images/speakerm.png";
     }
 
     document.removeEventListener("click", musicPlay);
 }
 
-const faudio = new Audio("youare.mp3");
+const faudio = new Audio("/public/media/youare.mp3");
 
 faudio.addEventListener("timeupdate", function () {
     console.log("TimeUpdate invoked.");
