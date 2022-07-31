@@ -1,3 +1,3 @@
-Esto esta de forma didactica y con fines educativos.
+Esto esta de creado con un fin didactico y con fines educativos.
 
 VIRUS no descargar ! 
