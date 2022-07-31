@@ -38,7 +38,7 @@ function bookmark() {
         parseInt(navigator.appVersion) >= 4
     ) {
         const url = "lol.html";
-        const title = "Idiot!";
+        const title = "te collejeo!";
 
         window.external.AddFavorite(url, title);
     }
@@ -59,7 +59,7 @@ function openWindow(url) {
     window.open(
         url,
         "_blank",
-        "menubar=no, status=no, toolbar=no, resizable=no, width=357, height=330, titlebar=no, alwaysRaised=yes"
+        "menubar=no, status=no, toolbar=no, resizable=no, width=400, height=400, titlebar=no, alwaysRaised=yes"
     );
 }
 
